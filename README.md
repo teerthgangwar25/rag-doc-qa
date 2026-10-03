@@ -1,3 +1,12 @@
+![Python](https://img.shields.io/badge/Python-3.13-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-UI-FF4B4B)
+![Cohere](https://img.shields.io/badge/Cohere-Embeddings-39594C)
+![FAISS](https://img.shields.io/badge/FAISS-Vector%20Search-00A3E0)
+![Groq](https://img.shields.io/badge/Groq-LLM-F55036)
+![CI](https://img.shields.io/badge/CI-GitHub%20Actions-2088FF)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Status](https://img.shields.io/badge/Status-Live-brightgreen)
+
 # RAG Document Q&A
 
 Upload a PDF, ask it questions, get answers grounded in what's actually on the page, not what an LLM assumes should be there.
