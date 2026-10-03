@@ -12,7 +12,7 @@ def _client():
     key = os.getenv("COHERE_API_KEY")
     if not key:
         raise RuntimeError("COHERE_API_KEY not set. Add it to .env")
-    return cohere.ClientV2(api_key=key)
+    return cohere.ClientV2(api_key=key.strip())
 
 def _embed(texts, input_type):
     co = _client()

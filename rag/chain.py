@@ -15,7 +15,7 @@ def _client():
     key = os.getenv("GROQ_API_KEY")
     if not key:
         raise RuntimeError("GROQ_API_KEY not set. Add it to .env")
-    return Groq(api_key=key)
+    return Groq(api_key=key.strip())
 
 def build_context(chunks):
     return "\n\n".join(f"[page {c['page']}]\n{c['text']}" for c in chunks)
