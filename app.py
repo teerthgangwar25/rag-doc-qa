@@ -6,7 +6,7 @@ from rag.store import VectorStore
 from rag.chain import answer_question
 
 st.set_page_config(page_title="RAG Document Q&A", page_icon="📄")
-st.title("📄 RAG Document Q&A")
+st.title("📄 RAG Document Q&A --V2")
 
 uploaded = st.file_uploader("Upload a PDF", type="pdf")
 
